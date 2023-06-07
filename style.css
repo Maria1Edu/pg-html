@@ -1,0 +1,103 @@
+
+/* Fonte do meu nome-Parte 1 */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/*Estilização do cabeçalho */
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+   
+    line-height: 200%;
+}
+
+
+.header{
+    background-color:rgb(245, 174, 235) ;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.header h1{
+    color: azure;
+    font-size: 30px;
+    /* Fonte do meu nomee-Parte 2 ler */
+    font-family: 'Caveat', cursive;
+}
+
+
+.header .social a{
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+/* Estilização do menu lateral */
+.left{
+    float: left;
+    width: 250;
+    margin: 0;
+    padding: 1em;
+}
+ul{
+    list-style-type: none;
+    /* border-left: 1px solid rgb(226, 3, 255); */
+}
+
+li a{
+    display:block;
+    color:rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: rgb(255, 142, 204);
+    color: aliceblue;
+}
+
+li a:hover:not(.active){
+background-color: rgb(255, 142, 204);
+}
+
+/* Estilização do conteúdo principal */
+.content{
+    margin-left: 220px;
+    border-left: 3px solid rgb(129, 0, 108);
+    padding: 1em;
+}
+
+/* Estilização da tabela */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+td, th{
+    border: 2px solid rgb(162, 0, 255);
+    padding: 8px;
+}
+
+tr:nth-child(1){
+    background-color: rgb(255, 182, 245);
+    color: white;
+}
+
+tr td i.fa-brands{
+    text-align: center;
+    display:block;
+   font-size: 35px;
+}
+
+/* Estilização do rodapé */
+.footer{
+    background-color:rgb(255, 142, 204);
+    padding: 55px 20px;
+    text-align: center;
+}
